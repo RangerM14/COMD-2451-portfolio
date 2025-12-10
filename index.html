@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Trirong:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/ml-favicon-2.svg">
+</head>
+
+<body>
+    <header>
+        <div class="container"> 
+            <nav class="navbar">
+
+            <a href="index.html" class="nav-branding">
+                <svg id="top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.38 36.36">
+                    <polygon class="cls-1" points="37.98 24.97 37.98 33.06 30.44 33.06 31.26 32.19 33.5 29.78 33.5 29.78 37.98 24.97"/>
+                    <polygon class="cls-1" points="54.38 29.8 54.38 36.36 41.26 36.36 41.26 21.45 47.82 14.42 47.82 29.8 54.38 29.8"/>
+                    <polygon class="cls-1" points="47.82 0 47.82 9.61 41.26 16.64 37.98 20.16 37.98 20.17 35.74 22.57 31.26 27.38 31.26 27.38 31.26 27.38 29.02 29.78 29.01 29.78 29.01 29.79 25.95 33.06 22.88 36.36 13.91 36.36 16.99 33.06 20.05 29.78 24.53 24.97 26.77 22.57 26.77 22.56 24.52 20.15 24.1 19.7 8.56 36.36 -.41 36.36 19.61 14.89 24.09 10.08 24.52 10.54 28.58 14.89 29 15.34 31.25 17.75 31.26 17.76 37.98 10.55 41.26 7.03 47.82 0"/>
+                </svg>
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                <a href="index.html" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                <a href="contact-2.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link").forEach(n =>
+            n.addEventListener("click", () => {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+            })
+        )
+    </script>
+        <div class="wrapper">
+
+            <!-- This is the design gallery -->
+
+            <div id="design-gallery">
+                <div class="row">
+                    <div class="column">
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/Erik_Spiekermann_Poster-72dpi.jpg" alt="Erik Spiekermann Poster">
+                            <div class="overlay">
+                                <div class="text">Erik Spiekermann Poster</div>
+                            </div>
+                        </div>
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/Heroes---back-72dpi.jpg" alt="Heros Back Cover">
+                            <div class="overlay">
+                                <div class="text">Heros Back Cover</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/Heros---front-72dpi.jpg" alt="Heros Front Cover">
+                            <div class="overlay">
+                                <div class="text">Heros Front Cover</div>
+                            </div>
+                        </div>
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/personal_logo-72dpi.jpg" alt="Personal Logo V2">
+                            <div class="overlay">
+                                <div class="text">Personal Logo V2</div>
+                            </div>
+                        </div>
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/polygon_portrait-72dpi.jpg" alt="Low-Poly Portrait">
+                            <div class="overlay">
+                                <div class="text">Low-Poly Portrait</div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="column">
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/Personal_Logo_2-72dpi.jpg" alt="Personal Logo V1">
+                            <div class="overlay">
+                                <div class="text">Personal Logo V1</div>
+                            </div>
+                        </div>
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/pizza-assignment-72dpi.jpg" alt="Supreme Pizza Ad">
+                            <div class="overlay">
+                                <div class="text">Supreme Pizza Ad</div>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+             <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+            </div>
+
+
+            <!-- This is the Photo gallery -->
+
+             <div id="photo-gallery">
+                <div class="row">
+                    <div class="column">
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/bkbg_1_72dpi.jpg" alt="Photo 1">
+                            <div class="overlay">
+                                <div class="text">Photo 1</div>
+                            </div>
+                        </div>
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/bkbg_2-300dpi.jpg" alt="Photo 2">
+                            <div class="overlay">
+                                <div class="text">Photo 2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/bkgg_3-72dpi.jpg" alt="Photo 3">
+                            <div class="overlay">
+                                <div class="text">Photo 3</div>
+                            </div>
+                        </div>
+                        <div class="overlay-container">
+                            <img class="gallery-image" src="assets/dramatic_lighting_1-72dpi.jpg" alt="Personal Logo V2">
+                            <div class="overlay">
+                                <div class="text">Dramatic Lighting</div>
+                            </div>
+                        </div>
+                        </div> 
+                            <div class="column">
+                                <div class="overlay-container">
+                                    <img class="gallery-image" src="assets/ferris_wheel-72dpi.jpg" alt="Ferris Wheel">
+                                    <div class="overlay">
+                                        <div class="text">Ferris Wheel</div>
+                                    </div>
+                                </div>
+                                <div class="overlay-container">
+                                    <img class="gallery-image" src="assets/low_shutter-72dpi.jpg" alt="Low Shutter">
+                                    <div class="overlay">
+                                        <div class="text">Low Shutter</div>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    </div>
+
+
+            <script>
+                const modal = document.getElementById("myModal");
+                const modalImg = document.getElementById("img01");
+                const images = document.querySelectorAll(".gallery-image");
+                const closeBtn = document.querySelector(".close");
+
+                // Loop through all images and add click event
+                images.forEach(img => {
+                    img.addEventListener("click", () => {
+                        modal.style.display = "block";
+                        modalImg.src = img.src;
+                    });
+                });
+
+                const overlays = document.querySelectorAll(".overlay");
+                overlays.forEach(ov => {
+                    ov.addEventListener("click", () => {
+                        const img = ov.previousElementSibling;
+                        modal.style.display = "block";
+                        modalImg.src = img.src;
+                    });
+                });
+
+                // Close button
+                 closeBtn.onclick = () => {
+                 modal.style.display = "none";
+                }
+
+                // Optional: Close modal when clicking outside image
+                modal.onclick = (e) => {
+                    if (e.target === modal) {
+                        modal.style.display = "none";
+                    }
+                };
+            </script>
+
+
+
+        </div>
+
+    <div class="footer-container">
+        <a href="index.html" class="logo-footer">
+            <svg id="bottom" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.38 36.36">
+                <polygon class="cls-1" points="37.98 24.97 37.98 33.06 30.44 33.06 31.26 32.19 33.5 29.78 33.5 29.78 37.98 24.97"/>
+                <polygon class="cls-1" points="54.38 29.8 54.38 36.36 41.26 36.36 41.26 21.45 47.82 14.42 47.82 29.8 54.38 29.8"/>
+                <polygon class="cls-1" points="47.82 0 47.82 9.61 41.26 16.64 37.98 20.16 37.98 20.17 35.74 22.57 31.26 27.38 31.26 27.38 31.26 27.38 29.02 29.78 29.01 29.78 29.01 29.79 25.95 33.06 22.88 36.36 13.91 36.36 16.99 33.06 20.05 29.78 24.53 24.97 26.77 22.57 26.77 22.56 24.52 20.15 24.1 19.7 8.56 36.36 -.41 36.36 19.61 14.89 24.09 10.08 24.52 10.54 28.58 14.89 29 15.34 31.25 17.75 31.26 17.76 37.98 10.55 41.26 7.03 47.82 0"/>
+            </svg>
+        </a>
+        <p id="footer-name">Michael Lester</p>
+    </div>
+</body>
+</html>
