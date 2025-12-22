@@ -37,7 +37,7 @@ a{
 }
 
 .nav-branding svg {
-    height: 36px;      /* Adjust logo height */
+    height: 36px;
     width: auto;
     display: block;
     padding-bottom:6px;
@@ -48,7 +48,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;   /* set navbar height */
+    height: 60px;
 }
 
 .nav-branding {
@@ -125,7 +125,7 @@ align-items: center;
     top: 60px;
     gap: 0;
     flex-direction: column;
-    background-color: #1c1329;
+    background-color: #3d335e;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -193,15 +193,6 @@ align-items: center;
   border-radius: 8px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-/* @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-} */
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -653,7 +644,7 @@ button:hover{
 }
 
 h1{
-  color:#3d335e;
+  color:#f7f4f9;
   font-family:Chivo Mono, serif;
   font-size:30px;
   font-weight:400;
@@ -673,7 +664,7 @@ p{
   font-family:Chivo Mono, sans-serif;
   font-size:16px;
   line-height:23px;
-  color:#7e64bc;
+  color:#f7f4f9;
   padding-bottom:10px;
 }
 #resume-button{
@@ -731,7 +722,7 @@ b{
   font-family:Chivo Mono, sans-serif;
   font-weight:500;
   font-size:16px;
-  color:#574a81;
+  color:#d7566c;
 }
 
 .icon-2{
@@ -739,7 +730,7 @@ b{
 }
 
 .texty{
-  color:#7e64bc;
+  color:#f7f4f9;
 }
 
 /* .w3-third{
@@ -770,7 +761,7 @@ b{
   font-family:Chivo Mono, sans-serif;
   font-size:16px;
   font-weight:500;
-  background-color:#7e64bc;
+  background-color:#d7566c;
   color:#1c1329;
   padding:4px;
   line-height:16px;
