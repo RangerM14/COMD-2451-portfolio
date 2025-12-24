@@ -592,8 +592,7 @@ textarea{
   padding-right:8px;
 }
 
-button.fcf-btn .fcf-btn-primary_fcf-btn-lg_fcf-btn-block{
-  font-family:Trirong, serif;
+button#fcf-button.fcf-btn.fcf-btn-primary_fcf-btn-lg_fcf-btn-block{
   font-size:20px;
   font-weight:700;
   color:#f7f4f9;
@@ -610,14 +609,13 @@ button.fcf-btn .fcf-btn-primary_fcf-btn-lg_fcf-btn-block{
   padding-left:8px;
   padding-right:8px;
   cursor:pointer;
-  font-family:Trirong, serif;
   border:none;
   margin-top:12px;
   transform:scale(100%);
   transition:0.5s ease;
 }
 
-button.fcf-btn .fcf-btn-primary_fcf-btn-lg_fcf-btn-block:hover{
+button#fcf-button.fcf-btn.fcf-btn-primary_fcf-btn-lg_fcf-btn-block:hover{
   color:#d7566c;
   background-color:#f7f4f9;
   outline:2px;
