@@ -482,15 +482,15 @@ textarea{
 }
 
 button{
+  font-family:Trirong, serif;
+  font-size:20px;
+  font-weight:700;
   display:block;
   outline:none;
   border:none;
   border-radius:6px;
   width:450px;
   height:50px;
-  font-family:Trirong, serif;
-  font-size:20px;
-  font-weight:700;
   color:#f7f4f9;
   background-color:#d7566c;
   padding-top:5px;
