@@ -17,7 +17,7 @@ li{
   list-style: none;
 }
 
-a{
+a.nav-item{
   color:#f7f4f9;
   text-decoration: none;
   font-family:Trirong, serif;
