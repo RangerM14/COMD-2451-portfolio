@@ -592,7 +592,12 @@ textarea{
   padding-right:8px;
 }
 
-button #fcf-button{
+#fcf-button{
+  font-family:Trirong, serif;
+  font-size:20px;
+  font-weight:700;
+  color:#f7f4f9;
+  background-color:#d7566c;
   display:block;
   outline:none;
   border:none;
@@ -600,11 +605,6 @@ button #fcf-button{
   min-width:291px;
   max-width:291px;
   height:50px;
-  font-family:Trirong, serif;
-  font-size:20px;
-  font-weight:700;
-  color:#f7f4f9;
-  background-color:#d7566c;
   padding-top:5px;
   padding-bottom:5px;
   padding-left:8px;
@@ -617,7 +617,7 @@ button #fcf-button{
   transition:0.5s ease;
 }
 
-button #fcf-button:hover{
+#fcf-button:hover{
   color:#d7566c;
   background-color:#f7f4f9;
   outline:2px;
