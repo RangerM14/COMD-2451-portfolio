@@ -610,11 +610,20 @@ button{
   padding-left:8px;
   padding-right:8px;
   cursor:pointer;
+  font-family:Trirong, serif;
+  border:none;
+  margin-top:12px;
+  transform:scale(100%);
+  transition:0.5s ease;
 }
 
 button:hover{
   color:#d7566c;
   background-color:#f7f4f9;
+  outline:2px;
+  outline-style:solid;
+  outline-color:#1c1329;
+  transform:scale(90%)
 }
 }
 /* Contact Page Section End */
