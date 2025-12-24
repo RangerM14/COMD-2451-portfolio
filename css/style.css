@@ -592,7 +592,7 @@ textarea{
   padding-right:8px;
 }
 
-#fcf-button{
+button.fcf-btn .fcf-btn-primary_fcf-btn-lg_fcf-btn-block{
   font-family:Trirong, serif;
   font-size:20px;
   font-weight:700;
@@ -617,7 +617,7 @@ textarea{
   transition:0.5s ease;
 }
 
-#fcf-button:hover{
+button.fcf-btn .fcf-btn-primary_fcf-btn-lg_fcf-btn-block:hover{
   color:#d7566c;
   background-color:#f7f4f9;
   outline:2px;
