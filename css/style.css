@@ -592,7 +592,7 @@ textarea{
   padding-right:8px;
 }
 
-button{
+button #fcf-button{
   display:block;
   outline:none;
   border:none;
@@ -617,7 +617,7 @@ button{
   transition:0.5s ease;
 }
 
-button:hover{
+button #fcf-button:hover{
   color:#d7566c;
   background-color:#f7f4f9;
   outline:2px;
