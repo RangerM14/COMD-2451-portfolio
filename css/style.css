@@ -676,6 +676,7 @@ a#resume-button{
   font-size:16px;
   line-height:16px;
   text-align:center;
+  text-decoration:none;
   color:#f7f4f9;
   background-color:#d7566c;
   display:block;
