@@ -481,7 +481,7 @@ textarea{
   padding-right:8px;
 }
 
-button{
+.fcf-form-button > #fcf-button{
   font-family:Trirong, serif;
   font-size:20px;
   font-weight:700;
